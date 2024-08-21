@@ -1,12 +1,17 @@
 export const students = {
-    jonas: {
+    Jonas: {
         name: 'Jonas',
         age: 99,
         isMarried: true,
     },
     maryte: {
-        name: 'Maryte',
+        name: 'Marytė',
         age: 88,
+        isMarried: false,
+    },
+    petras: {
+        name: 'Petras',
+        age: 77,
         isMarried: false,
     },
     ona: {
@@ -14,9 +19,9 @@ export const students = {
         age: 66,
         isMarried: true,
     },
-    petras: {
-        name: 'Petras',
-        age: 77,
-        isMarried: false,
+    optimus: {
+        name: 'Optimus Prime',
+        age: Infinity,
+        isMarried: () => { },
     },
 };
